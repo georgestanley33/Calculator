@@ -12,3 +12,7 @@ if function == "addition":
 if function == "subtraction":
     print("The answer is " , (num1 - num2))
 
+if function == "multiplication":
+    print("The answer is " , (num1*num2))
+
+
