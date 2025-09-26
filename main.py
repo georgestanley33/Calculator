@@ -1,25 +1,27 @@
 print("Calculator")
 print("")
 
-function = input("Which function would you like to carry out? Please enter addition, subtraction, multiplication or division")
+while True:
 
-num1 = int(input("Enter number 1"))
-num2 = int(input("Enter number 2"))
+    function = input("Which function would you like to carry out? Please enter addition, subtraction, multiplication or division")
 
-if function == "addition":
-    print("The answer is " , (num1 + num2))
+    num1 = int(input("Enter number 1"))
+    num2 = int(input("Enter number 2"))
 
-if function == "subtraction":
-    print("The answer is " , (num1 - num2))
+    if function == "addition":
+        print("The answer is " , (num1 + num2))
 
-if function == "multiplication":
-    print("The answer is " , (num1*num2))
+    if function == "subtraction":
+        print("The answer is " , (num1 - num2))
 
-if function == "division":
-    if num2 == 0:
-        print("Cannot divide by 0")
-    else:
-        print("The answer is " , (num1/num2))
+    if function == "multiplication":
+        print("The answer is " , (num1*num2))
+
+    if function == "division":
+        if num2 == 0:
+            print("Cannot divide by 0")
+        else:
+            print("The answer is " , (num1/num2))
 
 
 
