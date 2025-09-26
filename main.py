@@ -23,6 +23,10 @@ while True:
         else:
             print("The answer is " , (num1/num2))
 
+    choice = input("Would you like to perform another calculation? Answer 'no' to end the program")
+    if choice == "no":
+        break
+
 
 
 
