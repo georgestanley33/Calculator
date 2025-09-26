@@ -21,7 +21,8 @@ while True:
         if num2 == 0:
             print("Cannot divide by 0")
         else:
-            print("The answer is " , (num1/num2))
+            result  = num1/num2
+            print("The answer is " , round(result,2))
 
     choice = input("Would you like to perform another calculation? Answer 'no' to end the program")
     if choice == "no":
