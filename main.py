@@ -16,7 +16,10 @@ if function == "multiplication":
     print("The answer is " , (num1*num2))
 
 if function == "division":
-    print("The answer is " , (num1/num2))
+    if num2 == 0:
+        print("Cannot divide by 0")
+    else:
+        print("The answer is " , (num1/num2))
 
 
 
