@@ -15,4 +15,9 @@ if function == "subtraction":
 if function == "multiplication":
     print("The answer is " , (num1*num2))
 
+if function == "division":
+    print("The answer is " , (num1/num2))
+
+
+
 
