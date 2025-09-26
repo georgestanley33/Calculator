@@ -9,3 +9,6 @@ num2 = int(input("Enter number 2"))
 if function == "addition":
     print("The answer is " , (num1 + num2))
 
+if function == "subtraction":
+    print("The answer is " , (num1 - num2))
+
